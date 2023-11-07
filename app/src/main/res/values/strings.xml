@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyStoryApp</string>
+    <string name="redirectRegister">Belum Punya Akun? Silahkan REGISTER</string>
+    <string name="redirectLogin">Sudah Punya Akun? Silahkan LOGIN</string>
+    <string name="welcome_to_story_app">WELCOME TO STORY APP</string>
+    <string name="description">Description</string>
+    <string name="detail">Detail</string>
+    <string name="name">Name</string>
+    <string name="home">Home</string>
+    <string name="story_baru">Story Baru</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="dari_galery">Dari Galery</string>
+    <string name="dari_camera">Dari Camera</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="upload_story_baru">Upload Story Baru</string>
+    <string name="logout">Logout</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="tutup">Tutup</string>
+    <string name="mulai">Mulai</string>
+    <string name="gagal_ambil_gambar">Tidak Berhasil Mengambil Gambar</string>
+    <string name="error">Error</string>
+    <string name="app_bar">Story App Dicoding</string>
+    <string name="app_bar_detail">Detail Story App</string>
+    <string name="detail_text_name">Name : </string>
+    <string name="detail_text_dsc">Description : </string>
+    <string name="required">Semua Wajib Diisi</string>
+    <string name="no_permission">Anda tidak memiliki izin untuk akses</string>
+    <string name="pass_length_acc">Password harus lebih dari 5 digit</string>
+</resources>

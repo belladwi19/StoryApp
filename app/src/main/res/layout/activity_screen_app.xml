@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_screen_app_scene"
+    tools:context=".activity.ScreenAppActivity">
+
+    <TextView
+        android:id="@+id/tv_splashscreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/welcome_to_story_app" />
+
+    <ImageView
+        android:id="@+id/screen_img1"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dicodinggg_scaled"
+        app:flow_verticalBias="0.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/screen_img2"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:src="@drawable/feature_kurikulum"
+        app:flow_verticalBias="0.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/menu4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="32dp"
+        android:alpha="0"
+        app:altSrc="@drawable/ic_baseline_skip_next_24"
+        app:layout_constraintBottom_toBottomOf="@+id/menu3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/menu3"
+        app:layout_constraintTop_toTopOf="@+id/menu3"
+        app:srcCompat="@drawable/ic_baseline_skip_next_24"
+        app:tint="@color/design_default_color_primary" />
+
+
+    <Button
+        android:id="@+id/btn_screen"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        android:textColor="@color/base"
+        android:text="@string/mulai"
+        app:layout_constraintBottom_toBottomOf="@+id/screen_img2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/base" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
